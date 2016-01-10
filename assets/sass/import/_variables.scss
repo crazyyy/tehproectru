@@ -18,23 +18,26 @@ $heading-line-height: 1.2;
 
 // Other Sizes
 $width: 980px;
-$footer: 50px;
+$footer: 100px;
 $footer_margin: $footer - 2 * $footer;
-$base-border-radius: 3px;
+$base-border-radius: 10px;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
+$transpbackground: rgba(0, 0, 0, 0.49);
+
 // Colors
 $orange: orange;
-$red: red;
-$blue: #477dca;
+$red: #c10b0b;
+$blue: #2898e0;
+$light-blue: #9dc9e6;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
 
 // Font Colors
-$base-font-color: $dark-gray;
+$base-font-color: #fff;
 $action-color: $blue;
 
 // Border

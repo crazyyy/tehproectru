@@ -38,6 +38,15 @@
         <?php } ?>
       </div><!-- /logo -->
 
+      <h2 class="site-title"><?php bloginfo( 'name' ); ?></h2>
+      <h3 class="site-description"><?php bloginfo( 'description' ); ?></h3>
+      <div class="phone-block">
+        <a href="tel:88672989015" class="phone"><i class="fa fa-phone"></i>8(8672) 98 90 15</a>
+        <a href="tel:89188289015" class="phone"><i class="fa fa-phone"></i>8-918-828-90-15</a>
+        <span class="phone"><i class="fa fa-whatsapp"></i>8-928-935-04-45</i></span>
+        <a href="#" class="recall">Обратный звонок</a>
+      </div><!-- /.phone-block -->
+
       <nav class="nav" role="navigation">
         <?php wpeHeadNav(); ?>
       </nav><!-- /nav -->
