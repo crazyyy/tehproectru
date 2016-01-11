@@ -1,0 +1,151 @@
+.bookmarks{
+	position: absolute;
+	bottom: 0px;
+	width: 252px;
+}
+
+.bookmarks_header{
+	border: 1px solid #DBDBDB;
+}
+
+.bookmarks_header_content{
+	height: 17px;
+	border: 1px solid #FFF;	
+	background:#F2F2F2;
+	padding-left: 10px;
+}
+
+.bookmarks_header_content_title{
+	font-size: 12px;
+	color: #414F5A;
+	float:left;
+	margin-top:1px;
+}
+
+.bookmarks_list{
+	width: 250px;
+	height: 123px;
+	border: 1px solid #DBDBDB;
+	border-top:0px;
+	overflow: auto;
+	padding-top: 5px;
+}
+
+.bookmarks_list .resultItem{
+    margin:2px 6px;
+    font-size:12px;
+    color:#333;
+}
+.bookmarks_list .resultItem table{
+	width:100%;
+}
+
+.bookmarks_list .resultItem tr{
+   height:17px;
+}
+.bookmarks_list .resultItem td{
+    font-size:10px;
+	line-height: 1.3;
+}
+.bookmarks_list .resultItem a{
+    font-size:11px;
+}
+.bookmarks_list .resultItemNumber{
+    width:21px;
+    padding-right:10px;
+    text-align:right;
+}
+
+
+
+/*-----------------------------------*/
+.bookmarks_button{
+	display:block;
+	background: url("/portalonline/i/bookmarks.png");
+}
+
+.bookmarks_listButton{
+	width:15px;
+	height:15px;
+	float:right;	
+} 
+
+.bookmarks_addButton{
+	background-position: -18px 0px;
+}
+.bookmarks_addButton:hover{
+	background-position: -18px -15px;
+}
+.bookmarks_addButton:active{
+	background-position: -18px -30px;
+}
+
+.bookmarks_removeButton_disabled{
+    background-position: -33px -45px;
+    cursor: default;
+}
+.bookmarks_removeButton{
+	background-position: -33px 0px;
+}
+.bookmarks_removeButton:hover{
+	background-position: -33px -15px;
+}
+.bookmarks_removeButton:active{
+	background-position: -33px -30px;
+}
+
+.bookmarks_smallHeaderButton{
+	width:15px;
+	height:15px;	
+	float:right;
+	margin: 1px 1px 0px 0px;
+}
+
+.bookmarks_headerButton{
+	width: 18px;
+	height:18px;
+	float:right;
+	margin: 5px 4px 0px 0px;
+}
+
+.bookmarks_addAllButton{	
+	background-position: 0px 0px;
+}
+.bookmarks_addAllButton:hover{
+	background-position: 0px -18px;
+}
+.bookmarks_addAllButton:active{
+	background-position: 0px -36px;
+}
+
+.bookmarks_longSmallHeaderButton{
+	width:21px;
+	height:15px;
+	float:left;	
+}
+
+.bookmarks_exportCSVButton_disabled{
+    margin: 1px 0px 0px 8px;
+    background-position: -48px -45px;
+    cursor: default;
+}
+.bookmarks_exportCSVButton{
+	margin: 1px 0px 0px 8px;
+	background-position: -48px 0px;
+}
+.bookmarks_exportCSVButton:hover{
+	background-position: -48px -15px;
+}
+.bookmarks_exportCSVButton:active{
+	background-position: -48px -30px;
+}
+.bookmarks_importCSVButton{
+	margin: 1px 0px 0px 2px;
+	background-position: -69px 0px;
+}
+.bookmarks_importCSVButton:hover{
+	background-position: -69px -15px;
+}
+.bookmarks_importCSVButton:active{
+	background-position: -69px -30px;
+}

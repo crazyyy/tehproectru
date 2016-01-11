@@ -1,0 +1,212 @@
+﻿.infowindow .content
+{
+    margin-top:12px !important;
+    overflow:hidden !important;
+    color:#333;
+}
+.infowindow 
+{
+    color:#333;
+}
+.infowindow .red
+{
+    color:#f00;
+}
+.infowindow .cardinal
+{
+    color:#0077BE;
+}
+.infowindow .emptyGeometry
+{
+    height:30px;
+    border-bottom:1px solid #dbdbdb;
+    padding:2px 0px 0px 55px;
+    margin-bottom:1px;
+}
+.infowindow .mapInfoContainer
+{
+    height:122px;
+    overflow-y:auto;
+    margin-bottom:4px;
+}
+.infowindow .mapInfo tr
+{
+   vertical-align:top;
+}
+.infowindow .mapInfo .emptyRow
+{
+    height:3px;
+}
+.infowindow .mapInfo .leftColumn
+{
+    width: 60%;
+}
+.infowindow  .infoContainer
+{
+    height:122px;
+    overflow-y:auto;
+    margin-bottom:4px;
+}
+.infowindow  .info tr
+{
+    vertical-align:top;
+}
+.infowindow  .info .emptyRow
+{
+    height:3px;
+}
+.infowindow  .info .leftColumn
+{
+    width:180px;
+}
+.infowindow  .zoneList
+{
+    height:120px!important;
+    margin-left:3px;
+    margin-bottom:4px;
+    padding-top:2px;
+    overflow-y:auto;
+}
+.infowindow  .zoneList .headerZoneItem
+{
+    margin-bottom:8px;
+}
+.infowindow  .zoneList .waitZoneItem
+{
+    margin-top:26px;
+    padding-left:115px;
+}
+.infowindow  .zoneList .waitZoneItem img
+{
+    margin-bottom: -5px;
+    margin-right:6px;
+}
+.infowindow  .zoneList .errorZoneItem
+{
+    margin-top:26px;
+    padding-left:70px;
+}
+.infowindow  .zoneList .errorZoneItem .errorZoneItemImg
+{
+    width:34px;
+    height:47px;
+    background:url("/portalonline/i/icons.png") -259px -104px no-repeat;
+    float:left;
+    margin-top: -4px;
+    margin-right:6px;
+}
+.infowindow  .zoneList .emptyZoneItem
+{
+    margin-top:26px;
+    padding-left:100px;
+}
+.infowindow  .zoneList .emptyZoneItem .emptyZoneItemImg
+{
+    width:34px;
+    height:47px;
+    background:url("/portalonline/i/icons.png") -293px -104px no-repeat;
+    float:left;
+    margin-top: -10px;
+    margin-right:6px;
+}
+.infowindow  .zoneList .zoneItem
+{
+    padding-left:10px;
+    margin-bottom:7px;
+}
+.infowindow  .zoneList .zoneItem .zoneItemMarker
+{
+    width:5px;
+    height:5px;
+    background:#0077BE;
+    float:left;
+    margin-top:6px;
+}
+.infowindow  .zoneList .zoneItem .zoneItemTitle
+{
+    color:#6a6a6a;
+}
+.infowindow  .zoneList .zoneItem .zoneItemContent
+{
+    padding-left:10px;
+}
+.infowindow  .linkList
+{
+    height:120px;
+    margin-left:3px;
+    margin-bottom:4px;
+    padding-top:2px;
+    overflow-y:auto;
+}
+.infowindow  .linkList .linkItem
+{
+    margin-bottom:8px;
+}
+.infowindow  .linkList .linkItem .linkIcon
+{
+    margin-top:3px;
+    width:10px;
+    height:10px;
+    background:url("/portalonline/i/icons.png") -236px -119px no-repeat;
+    float:left;
+}
+.infowindow  .linkList .linkItem .link
+{
+    margin-left:14px;
+    display:block;
+}
+.infowindow  .cadastreMapInfoContainerContainer
+{
+    border: 1px solid #dbdbdb;
+    background:#fff;    
+    padding:4px 4px 0px 4px;
+}
+.infowindow .cadastreMapInfoContainer
+{    
+    margin-bottom:4px;
+    overflow-y: auto;
+}
+.infowindow .cadastreMapInfo
+{    
+    margin-top:0px;
+    width:100%;    
+}
+.infowindow .cadastreMapInfo tr
+{
+   vertical-align:top;
+}
+.infowindow .cadastreMapInfo .emptyRow
+{
+   height:6px;
+   vertical-align:middle;
+}
+.infowindow .cadastreMapInfo .emptyRow .cadastreMapInfoSplitter,
+.infowindow .mapInfo .emptyRow .cadastreMapInfoSplitter
+{
+   border-bottom:1px solid #dbdbdb;
+   background:red;
+}
+
+.infowindow .cadastreMapInfo .leftColumn
+{
+    width: 140px;/*60%;*/
+}
+
+.infowindow .cadastreMapInfo .leftColumnZone{
+    width: 90px;
+}
+
+.infowindow .icon-tooltip{
+    display: inline-block;
+    margin-bottom: -2px;
+    width: 12px;
+    height: 12px;
+    background-image: url('/portalonline/i/tooltip.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+.infowindow .icon-tooltip:hover{
+    background-position: 0px -12px;
+}
+
+

@@ -1,0 +1,263 @@
+﻿*
+{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: arial,sans-serif;
+}
+
+img 
+{ 
+    border: 0;
+}
+a, img, div, input, span  
+{ 
+    outline: none;
+}
+ul
+{
+    list-style:none;
+}
+h1, h2, p, span, a, input,button
+{
+   font-family: arial,sans-serif; 
+}
+html, body
+{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+	min-width: 900px;
+	min-height: 600px;
+	
+}
+a
+{
+    outline:0px;
+    cursor:pointer;    
+    color:#0077BE;
+}
+a:hover
+{
+    border-bottom-width:0px; /*!important*/
+    text-decoration:none;
+}
+a.pseudoLink
+{
+    text-decoration:none;
+    border-bottom:1px dotted #0077BE;
+}
+
+#kvartalPlan
+{
+    margin-left:15px;
+}
+
+
+.triangle
+{
+    width:7px;
+    height:7px;
+    float:left;
+    margin-top:4px;
+    margin-right:4px;
+}
+.rightTriangle
+{
+    background:url("/portalonline/i/icons.png") 0px -184px no-repeat;
+}
+.downTriangle
+{    
+    background:url("/portalonline/i/icons.png") -7px -184px no-repeat;
+}
+input[disabled] 
+{
+  border-color:#dbdbdb;
+  background:#f7f7f7;
+}
+
+
+.header
+{
+    padding-top:7px;
+    border:0px;
+    height:43px;    
+    position:fixed;
+    top:0px;
+    left:10px;
+    right:10px;
+    background:#ffffff;
+    z-index:1000;
+}
+.header .title
+{
+    display:block;
+    width:236px;
+    float:left;
+}
+
+.header .title .logo
+{
+    height:36px;
+    overflow:hidden;
+    background: url("/portalonline/i/icons.png") 0px -104px no-repeat;
+    display:block;
+}
+.header .appLinks {
+	float: right;
+	width: 489px;
+	margin-top:-7px;
+	background: url("/portalonline/i/app_bar.png") 0 0 no-repeat;
+}
+.header .appLinks a {
+	display: block;
+	width: 112px;
+	height: 50px;
+	cursor: pointer;
+	float:right;
+	background: url("/portalonline/i/app_buttons.png") 0 0 no-repeat;
+}
+.header .appLinks .storeLink {
+	background-position: 0 0;
+}
+.header .appLinks .storeLink:hover {
+	background-position: 0 -50px;
+}
+.header .appLinks .storeLink:active {
+	background-position: 0 -100px;
+}
+.header .appLinks .marketLink {
+	background-position: -112px 0;
+}
+.header .appLinks .marketLink:hover {
+	background-position: -112px -50px;
+}
+.header .appLinks .marketLink:active {
+	background-position: -112px -100px;
+}
+
+.header .subjectInfo .subjectListOpenState
+{
+    display:block;
+}
+.header .subjectInfo .subjectListCloseState
+{
+    display:none;
+}
+.header .subjectInfo .subjectList .subjectHeader
+{
+    padding:4px;
+}
+.header .subjectInfo .subjectList .subjectItem
+{
+    padding:2px 8px;
+}
+.header .subjectInfo .subjectList .subjectSeparator
+{
+    margin:2px 4px;
+    height:1px;
+    background:#efefef;
+}
+.header .languageSwitcher
+{
+    float:right;
+    margin-top:2px;
+}
+.header .languageSwitcher .languageLabel
+{
+    display:block;
+    float:left;
+    font-size:12px;
+}
+.header .languageSwitcher .activeLanguageLabel
+{
+    display:block;
+    float:left;
+    font-size:12px;
+    color:#0077BE;
+}
+.header .languageSwitcher .languageSplitter
+{
+    height:12px;
+    border-left:1px solid #d3d3d3;
+    margin:2px 4px;
+    float:left;
+}
+
+.header .maintenance{
+    float: left;
+    margin: -7px 26px;
+}
+
+.footer
+{
+    border-top: 1px solid #c9c9c9;
+    height:32px;  
+    position:fixed;
+    bottom:0px;
+    left:10px;
+    right:10px;
+    overflow:hidden;
+    background:#ffffff;
+}
+.footer .footerList
+{
+    height:12px;
+    font-size:11px;
+    margin-top:9px;
+}
+
+.footer .footerVersion
+{
+    width:150px;
+    height:12px;
+    font-size: 1em;
+	line-height: 1.5em;
+    margin-top:9px;
+	float:left;
+}
+.footer .footerList .leftFooterItem
+{
+    float:left;
+    margin-left:5px;
+}
+.footer .footerList .separatorFooterItem
+{
+    border-left:1px solid #313131;
+    width:0px;
+    height:10px;   
+    margin-top:3px;
+}
+.footer .footerList .rightFooterItem
+{
+    float:right;
+    margin-right:5px;
+}
+
+.footer .socialLinks a {
+	display: block;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	float:right;
+	background: url("/portalonline/i/social_buttons.png") 0 0 no-repeat;
+}
+.footer .socialLinks .twitterLink {
+	background-position: 0 0;
+}
+.footer .socialLinks .twitterLink:hover {
+	background-position: 0 -16px;
+}
+.footer .socialLinks .twitterLink:active {
+	background-position: 0 -32px;
+}
+
+.footer .socialLinks .facebookLink {
+	margin-left: 4px;
+	background-position: -16px 0;
+}
+.footer .socialLinks .facebookLink:hover {
+	background-position: -16px -16px;
+}
+.footer .socialLinks .facebookLink:active {
+	background-position: -16px -32px;
+}

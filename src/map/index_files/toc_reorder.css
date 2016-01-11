@@ -1,0 +1,33 @@
+.tocItemMoveButton{
+	display:block;
+	float:right; 
+	width:16px; 
+	height:16px; 
+	background: url(/portalonline/i/arrows.png);
+}
+
+.upButton{
+	background-position: -16px 0px;
+}
+.upButton:hover{
+	background-position: -32px 0px;
+}
+.upButton:active{
+	background-position: -48px 0px;
+}
+.upButtonDisabled{
+	background-position: 0px 0px;
+}
+
+.downButton{
+	background-position: -16px 16px;
+}
+.downButton:hover{
+	background-position: -32px 16px;
+}
+.downButton:active{
+	background-position: -48px 16px;
+}
+.downButtonDisabled{
+	background-position: 0px 16px;
+}

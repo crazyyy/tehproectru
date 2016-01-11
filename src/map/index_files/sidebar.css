@@ -1,0 +1,83 @@
+﻿.wrapper .sidebar
+{
+    border:0px;
+    height:100%;
+    float:left;
+}
+.wrapper .sidebarOpenState
+{
+    display:block;
+}
+.wrapper .sidebarCloseState
+{
+    display:none;
+}
+.wrapper .sidebarHeader
+{
+    border:0px;
+    border-bottom:2px solid #dbdbdb;
+    width:252px;    
+    height:24px;
+}
+.wrapper .sidebarHeader .sidebarHeaderContent
+{
+    border:0px;
+    border-bottom:1px solid #c9c9c9;    
+    width:100%;
+    height:24px;
+}
+.wrapper .sidebarHeader .sidebarHeaderContent .sidebarHeaderContentLeft
+{
+    width:10px;
+    overflow:hidden;
+    background: url("/portalonline/i/icons.png") 0px -151px no-repeat;
+}
+.wrapper .sidebarHeader .sidebarHeaderContent .sidebarHeaderContentCenter
+{
+    width:232px;
+    background: #efefef;
+}
+.wrapper .sidebarHeader .sidebarHeaderContent .sidebarHeaderContentRight
+{
+    width:10px;
+    overflow:hidden;
+    background: url("/portalonline/i/icons.png") -10px -151px no-repeat;
+}
+.wrapper .sidebarHeader .sidebarHeaderContent .sidebarHeaderContentCenter .sidebarHeaderContentTitle
+{
+    font:bold 12px arial;
+    color: #6a6a6a;
+}
+.wrapper .sidebarWrapper
+{
+    padding:1px;
+    border:1px solid #dbdbdb;
+    width:248px;  
+}
+.wrapper .sidebarFooter
+{
+    border:0px;
+    border-top:1px solid #c9c9c9;
+    width:252px;    
+    height:12px;
+}
+.wrapper .sidebarFooter .sidebarFooterContent
+{
+    border:0px; 
+    width:100%;
+    height:10px;
+}
+.wrapper .sidebarFooter .sidebarFooterContent .sidebarFooterContentLeft
+{
+    overflow:hidden;
+    background: url("/portalonline/i/icons.png") 0px -174px no-repeat;
+}
+.wrapper .sidebarFooter .sidebarFooterContent .sidebarFooterContentCenter
+{
+    background: #efefef;
+}
+.wrapper .sidebarFooter .sidebarFooterContent .sidebarFooterContentRight
+{
+    overflow:hidden;
+    background: url("/portalonline/i/icons.png") -10px -174px no-repeat;
+}

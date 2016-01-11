@@ -1,0 +1,49 @@
+﻿.portal .infowindow 
+{
+    z-index:20 !important;
+}
+.portal .infowindow .sprite 
+{
+    background-image:url("/portalonline/i/info_window.png");
+}
+.portal .infowindow .pointer
+{
+    margin-top:1px;
+}
+.portal .infowindow .window .top .right .user 
+{
+    height:429px;
+}
+.portal .infowindow .window .top .right .user .border
+{
+    display:none;
+}
+.portal .infowindow .window .top .right .user .titlebar .hide
+{
+    width:19px;
+    height:19px;
+    margin-top:-1px;
+    right:-1px !important;
+}
+.portal .infowindow .window .top .right .user .titlebar .hide .sprite
+{  
+    margin-left: -745px;
+    margin-top: -900px;    
+}
+.portal .infowindow .window .top .right .user .titlebar .hide .sprite:hover
+{  
+    margin-top: -919px;
+}
+.infowindow .window .top .right .user .titlebar .title 
+{
+    font-size:12px !important;
+    color:#333;
+    font-family:Arial;
+}
+
+.portal .infowindow .window .top .right .user .layout {
+    margin-left:1px !important;
+    padding-right:0px!important;
+    font-size:11px;
+    overflow-y: auto;
+}

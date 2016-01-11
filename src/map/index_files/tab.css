@@ -1,0 +1,57 @@
+/* globals */
+.g-layout {margin: 0; padding: 0; border-collapse: collapse; border-width: 0; border-spacing: 0; vertical-align: top;}
+ul.g-layout {list-style: none;}
+
+/* portlet */
+.portlet-nav-toolbar, .toolbar-button {color: #414f5a;}
+
+.portlet-nav-toolbar {border-bottom: 1px solid #dbdbdb;}
+.portlet-nav-toolbar-box {height: 29px; overflow: hidden; padding: 0 8px; border-bottom: 1px solid #ffffff; line-height: 29px; white-space: nowrap;}
+
+.portlet-nav-toolbar .g-separator {float: left; padding: 0; margin-top: 3px; margin-right: 2px;}
+
+.portlet-nav {background: #efeeee;}
+.portlet-nav .portlet-nav-toolbar {border-top: 1px solid #dbdbdb; border-bottom: none;}
+
+.portlet-nav-tabs {position: absolute;}
+.portlet-nav-tabs li {float: left; margin-right: 3px;}
+.tabs-item, .tabs-item:hover {font-weight: bold; color: #6a6a6a; text-decoration: none;}
+.tabs-item {display: block; float: left; height: 28px; margin-top: 4px; padding-left: 4px; background: url(/portalonline/i/tab_left.gif) no-repeat;}
+.tabs-item span {display: block; float: left; padding-right: 4px; background: url(/portalonline/i/tab_right.gif) no-repeat 100% 0;}
+.tabs-item span span {height: 28px; overflow: hidden; padding: 0; background: url(/portalonline/i/tab_bgr.gif) repeat-x;}
+.tabs-item span span span {height: auto; margin-top: 2px; padding: 6px 5px; line-height: 13px; background: none;}
+.tabs-item:hover span span span, .tabs-item-active span span span {margin-top: 3px; background: none;}
+.tabs-item:hover span span, .tabs-item-active .tabs-item span, .tabs-item-active .tabs-item {height: 29px;}
+.tabs-item:hover, .tabs-item-active .tabs-item {margin-top: 3px;}
+.tabs-item:hover, .tabs-item:hover span span {background-position: 0 -28px;}
+.tabs-item:hover span {background-position: 100% -28px;}
+.tabs-item-active .tabs-item, .tabs-item-active .tabs-item span span {background-position: 0 -57px !important;}
+.tabs-item-active .tabs-item span {background-position: 100% -57px !important;}
+.tabs-item-active .tabs-item span span, .tabs-item:hover span span {background-color: #ffffff;}
+.tabs-item-active .tabs-item span span span {padding-top: 4px; border-top: 2px solid #67bd4a; background: none;}
+.portlet-nav-tabs-content .tabs-item-active .tabs-item, .portlet-nav-tabs-content .tabs-item-active .tabs-item span span {background-position: 0 -86px !important;}
+.portlet-nav-tabs-content .tabs-item-active .tabs-item span {background-position: 100% -86px !important;}
+
+.portlet-content-wrap {padding: 8px;border: 1px solid #ffffff; border-bottom-width:0px; display:none;}
+.portlet-content-wrap-active{display:block;}
+
+
+.tabs-item2, .tabs-item2:hover {font-weight: bold; color: #6a6a6a; text-decoration: none;}
+.tabs-item2 {display: block; float: left; height: 28px; margin-top: 4px; padding-left: 4px; background: url(/portalonline/i/tab_left2.gif) no-repeat;}
+.tabs-item2 span {display: block; float: left; padding-right: 4px; background: url(/portalonline/i/tab_right2.gif) no-repeat 100% 0;}
+.tabs-item2 span span {height: 28px; overflow: hidden; padding: 0; background: url(/portalonline/i/tab_bgr2.gif) repeat-x;}
+.tabs-item2 span span span {height: auto; margin-top: 2px; padding: 6px 8px; line-height: 13px; background: none;}
+.tabs-item2:hover span span span, .tabs-item2-active span span span {margin-top: 3px; background: none;}
+.tabs-item2:hover span span, .tabs-item2-active .tabs-item2 span, .tabs-item2-active .tabs-item2 {height: 29px;}
+.tabs-item2:hover, .tabs-item2-active .tabs-item2 {margin-top: 3px;}
+.tabs-item2:hover, .tabs-item2:hover span span {background-position: 0 -28px;}
+.tabs-item2:hover span {background-position: 100% -28px;}
+.tabs-item2-active .tabs-item2, .tabs-item2-active .tabs-item2 span span {background-position: 0 -57px !important;}
+.tabs-item2-active .tabs-item2 span {background-position: 100% -57px !important;}
+.tabs-item2-active .tabs-item2 span span, .tabs-item2:hover span span {background-color: #ffffff;}
+.tabs-item2-active .tabs-item2 span span span {padding-top: 4px; border-top: 2px solid #67bd4a; background: none;}
+.portlet-nav-tabs-content .tabs-item2-active .tabs-item2, .portlet-nav-tabs-content .tabs-item2-active .tabs-item2 span span {background-position: 0 -86px !important;}
+.portlet-nav-tabs-content .tabs-item2-active .tabs-item2 span {background-position: 100% -86px !important;}
+
+.portlet-content-wrap2 {padding: 4px 4px 0px 4px;border: 1px solid #dbdbdb; border-top-width:0px;  border-bottom-width:1px; background: #fff;  display:none; }
+.portlet-content-wrap2-active{display:block;}

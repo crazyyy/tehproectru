@@ -1,0 +1,554 @@
+.toolbar
+{
+    border:1px solid #d3d3d3; 
+    padding: 1px;
+    height:36px;
+    background:#ffffff;
+    z-index:100;
+}
+.toolbar .toolbarBackground
+{
+    padding: 5px 8px;
+    height: 26px;
+    background:#efefef;                
+}
+.toolbar .toolbarLeftElement
+{
+    float:left;  
+    margin-right:5px;               
+}
+.toolbar .toolbarRightElement
+{
+    float:right;   
+    margin-left:5px;              
+}
+.toolbar .toolbarButton
+{          
+    border:0;
+    width:29px; 
+    height:26px;
+    cursor: pointer;
+    display:block;
+}            
+.toolbar .toolbarSeparator
+{
+    border:0;
+    width:2px; 
+    height:26px;
+    overflow: hidden;
+    background: url("/portalonline/i/icons.png") -58px 0px no-repeat;
+	margin-left: 2px;
+    margin-right: 6px;
+}
+.toolbar .toolbarCombobox
+{
+    margin-top: 3px;
+}
+.toolbar  #panTool .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -58px -26px no-repeat;
+}
+.toolbar  #panTool .toolbarButton:hover
+{
+    background:url("/portalonline/i/icons.png") -58px -52px no-repeat;
+}
+.toolbar  #panTool[selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -58px -78px no-repeat;
+}
+.toolbar  #zoomTool .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -87px -26px no-repeat;
+}
+.toolbar  #zoomTool .toolbarButton:hover
+{
+    background:url("/portalonline/i/icons.png") -87px -52px no-repeat;
+}
+.toolbar  #zoomTool[selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -87px -78px no-repeat;
+}
+.toolbar #backTool[enabled="false"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") 0px 0px no-repeat;
+    cursor:default;
+}
+.toolbar  #backTool[enabled="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") 0px -26px no-repeat;
+}
+.toolbar  #backTool[enabled="true"] .toolbarButton:hover
+{
+    background:url("/portalonline/i/icons.png") 0px -52px no-repeat;
+}
+.toolbar  #backTool[enabled="true"][selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") 0px -78px no-repeat;
+}
+.toolbar #nextTool[enabled="false"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -29px 0px no-repeat;
+    cursor:default;
+}
+.toolbar  #nextTool[enabled="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -29px -26px no-repeat;
+}
+.toolbar  #nextTool[enabled="true"] .toolbarButton:hover
+{
+    background:url("/portalonline/i/icons.png") -29px -52px no-repeat;
+}
+.toolbar  #nextTool[enabled="true"][selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -29px -78px no-repeat;
+}
+
+/*----------------------------------------------------------------------*/
+
+.toolbar  #infoTool .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -116px -26px no-repeat;
+}
+.toolbar  #infoTool .toolbarButton:hover
+{
+    background:url("/portalonline/i/icons.png") -116px -52px no-repeat;
+}
+.toolbar  #infoTool[selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -116px -78px no-repeat;
+}
+
+.toolbar  #infoToolLine .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -145px -26px no-repeat;
+}
+.toolbar  #infoToolLine .toolbarButton:hover
+{
+    background:url("/portalonline/i/icons.png") -145px -52px no-repeat;
+}
+.toolbar  #infoToolLine[selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -145px -78px no-repeat;
+}
+
+.toolbar  #infoToolPolygon .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -174px -26px no-repeat;
+}
+.toolbar  #infoToolPolygon .toolbarButton:hover
+{
+    background:url("/portalonline/i/icons.png") -174px -52px no-repeat;
+}
+.toolbar  #infoToolPolygon[selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -174px -78px no-repeat;
+}
+
+
+.toolbar  #infoToolLine .infoBufferTextboxContainer
+{
+	margin-top:1px;
+    border: 1px solid #0077BE;
+    padding:1px;
+	width: 94px;
+    height:27px; 
+    background:#fff;  
+    cursor:default; 
+	position:absolute;	
+}
+.toolbar  #infoToolLine .infoBufferTextboxContainer .infoBufferTextboxContainerBackground
+{
+    background:#efefef;
+    height:21px;
+    padding: 3px;
+	color:#333;
+}
+.toolbar  #infoToolLine .infoBufferTextboxContainer #infoBufferTextbox
+{
+	float:left;
+	margin-top:0px;
+	font-size:10pt;
+	width: 66px;
+}
+.toolbar  #infoToolLine .infoBufferTextboxContainer #infoBufferLabel
+{
+	margin-top:0px;
+	float:right;
+	font-size:10pt;
+}
+/*----------------------------------------------------------------------*/
+
+.toolbar  #infoToolZouit .toolbarButton
+{
+    background:url("/portalonline/i/info_buttons.png") 0px 0px;
+}
+.toolbar  #infoToolZouit .toolbarButton:hover
+{
+    background:url("/portalonline/i/info_buttons.png") 0px -26px;
+}
+.toolbar  #infoToolZouit[selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/info_buttons.png") 0px -52px;
+}
+
+
+.toolbar  #infoToolTerrZone .toolbarButton
+{
+    background:url("/portalonline/i/info_buttons.png") -29px 0px;
+}
+.toolbar  #infoToolTerrZone .toolbarButton:hover
+{
+    background:url("/portalonline/i/info_buttons.png") -29px -26px;
+}
+.toolbar  #infoToolTerrZone[selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/info_buttons.png") -29px -52px;
+}
+
+.toolbar  #infoToolBorder .toolbarButton
+{
+    background:url("/portalonline/i/info_buttons.png") -58px 0px;
+}
+.toolbar  #infoToolBorder .toolbarButton:hover
+{
+    background:url("/portalonline/i/info_buttons.png") -58px -26px;
+}
+.toolbar  #infoToolBorder[selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/info_buttons.png") -58px -52px;
+}
+/*----------------------------------------------------------------------*/
+.toolbar  #basemapTool .toolbarButton
+{
+    width:151px;
+    background:url("/portalonline/i/icons.png") -289px -26px no-repeat;
+}
+.toolbar  #basemapTool .toolbarButton:hover
+{
+    width:151px;
+    background:url("/portalonline/i/icons.png") -289px -52px no-repeat;
+}
+.toolbar  #basemapTool[selected="true"] .toolbarButton
+{
+    width:151px;
+    background:url("/portalonline/i/icons.png") -289px -78px no-repeat;
+}
+.toolbar  #printTool .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -220px -26px no-repeat;
+}
+.toolbar  #printTool .toolbarButton:hover
+{
+    background:url("/portalonline/i/icons.png") -220px -52px no-repeat;
+}
+.toolbar  #printTool[selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -220px -78px no-repeat;
+}
+.toolbar  #cadastreTool .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -411px -26px no-repeat;
+}
+.toolbar  #cadastreTool .toolbarButton:hover
+{
+    background:url("/portalonline/i/icons.png") -411px -52px no-repeat;
+}
+.toolbar  #cadastreTool[selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -411px -78px no-repeat;
+}
+.toolbar  #linkTool .toolbarButton
+{
+    width:40px;
+    background:url("/portalonline/i/icons.png") -249px -26px no-repeat;
+}
+.toolbar  #linkTool .toolbarButton:hover
+{
+    width:40px;
+    background:url("/portalonline/i/icons.png") -249px -52px no-repeat;
+}
+.toolbar  #linkTool[selected="true"] .toolbarButton
+{
+    width:40px;
+    background:url("/portalonline/i/icons.png") -249px -78px no-repeat;
+}
+.toolbar  #linkTool .linkTextboxContainer
+{
+    /*margin:1px 0px 0px -414px;*/
+	margin-top:1px;
+    border: 1px solid #0077BE;
+    padding:1px;
+    /*width:450px;*/ 
+    height:27px; 
+    background:#fff;  
+    cursor:default;
+	position:absolute;	
+}
+.toolbar  #linkTool .linkTextboxContainer .linkTextboxContainerBackground
+{
+    background:#efefef;
+    /*width:444px;*/
+    height:21px;
+    padding: 3px;
+}
+.toolbar  #linkTool .linkTextboxContainer input
+{
+    border:1px solid #95999f;
+    display:block;
+    width:438px;
+    height:19px;
+    font-size:15px;
+    margin-left:0px;
+    padding-left:4px;
+    color:#333;
+}
+.toolbar #basemapTool .basemapListContainer
+{
+    margin:1px 0px 0px -83px;
+    border: 1px solid #0077BE;
+    padding:1px;
+    width:230px; 
+    
+    background:#fff;  
+    cursor:default;    
+}
+
+.toolbar  #basemapTool .basemapList
+{
+	background: #EFEFEF;
+}
+.toolbar  #basemapTool .basemapList  li {
+    margin: 0 5px;
+}
+.toolbar  #basemapTool .basemapList .basemapListItem .basemapItemContainer #csvObjectsCheckBox
+{
+	margin-bottom:15px;
+}
+
+.toolbar  #basemapTool .basemapList .basemapListItem  .basemapItemContainer input
+{
+	padding: 1px 0px 1px 0px;	
+}
+.toolbar  #basemapTool .basemapList .basemapListItem  .basemapItemContainer label
+{
+	font-size: 8pt;
+	margin: -1px 0px 5px 0px;	
+	color:#424D58;
+}
+
+
+.toolbar #rulerTool[enabled="false"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -440px 0px no-repeat;
+    cursor:default;
+}
+.toolbar  #rulerTool .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -440px -26px no-repeat;
+}
+.toolbar  #rulerTool .toolbarButton:hover
+{
+    background:url("/portalonline/i/icons.png") -440px -52px no-repeat;
+}
+.toolbar  #rulerTool[selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -440px -78px no-repeat;
+}
+.toolbar  #rulerTool .rulerTextboxContainer
+{
+    /*margin:1px 0px 0px -45px;*/
+	margin-top:1px;
+    border: 1px solid #0077BE;
+    padding:1px;
+    /*width:70px;*/ 
+    height:27px; 
+    background:#fff;  
+    cursor:default; 
+	position:absolute;	
+}
+.toolbar  #rulerTool .rulerTextboxContainer .rulerTextboxContainerBackground
+{
+    background:#efefef;
+    /*width:64px;*/
+    height:21px;
+    padding: 3px;
+	color:#333;
+}
+.toolbar  #rulerTool .rulerTextboxContainer #rulerTextbox
+{
+	float:left;
+	margin-top:0px;
+	font-size:10pt;
+}
+.toolbar  #rulerTool .rulerTextboxContainer #rulerLabel
+{
+	margin-top:0px;
+	float:right;
+	font-size:10pt;
+}
+
+.toolbar #rulerAreaTool[enabled="false"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -469px 0px no-repeat;
+    cursor:default;
+}
+.toolbar  #rulerAreaTool .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -469px -26px no-repeat;
+}
+.toolbar  #rulerAreaTool .toolbarButton:hover
+{
+    background:url("/portalonline/i/icons.png") -469px -52px no-repeat;
+}
+.toolbar  #rulerAreaTool[selected="true"] .toolbarButton
+{
+    background:url("/portalonline/i/icons.png") -469px -78px no-repeat;
+}
+.toolbar  #rulerAreaTool .rulerAreaTextboxContainer
+{
+    /*margin:1px 0px 0px -65px;*/
+	margin-top:1px;
+    border: 1px solid #0077BE;
+    padding:1px;
+    /*width:90px;*/
+    height:27px; 
+    background:#fff;  
+    cursor:default;  
+	position:absolute;	
+}
+.toolbar  #rulerAreaTool .rulerAreaTextboxContainer .rulerAreaTextboxContainerBackground
+{
+    background:#efefef;
+    /*width:84px;*/
+    height:21px;
+    padding: 3px;
+	color:#333;
+}
+.toolbar  #rulerAreaTool .rulerAreaTextboxContainer #rulerAreaTextbox
+{
+    margin-top:0px;
+	float:left;
+	font-size:10pt;
+}
+.toolbar  #rulerAreaTool .rulerAreaTextboxContainer #rulerAreaLabel
+{
+	margin-top:0px;
+	float:right;
+	font-size:10pt;
+}
+
+.toolbar  #thematicsMapTool .thematicsMapList
+{
+	margin: 5px;
+}
+.toolbar  #thematicsMapTool .thematicsMapList .thematicsMapListItem  .thematicsMapItemContainer input
+{
+	padding: 1px 0px 1px 0px;	
+}
+.toolbar  #thematicsMapTool .thematicsMapList .thematicsMapListItem  .thematicsMapItemContainer label
+{
+	font-size: 8pt;
+	margin: -1px 0px 5px 0px;	
+	color:#424D58;
+}
+
+.toolbar  #thematicsMapTool 
+{
+	color:#414F5A;
+	margin-top:6px;
+}
+
+.thematicsMapLegendContainer
+{
+    top: 8px;
+    right: 8px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 50;
+	background:#fff;
+    border: 1px solid #d3d3d3;
+}
+.thematicsMapLegendContainer .thematicsMapLegend
+{
+    padding:1px;   
+    background:#fff; 
+    cursor:default;
+	overflow:auto;    
+}
+.thematicsMapLegendContainer #thematicMapCadAmountLegend
+{                                             
+	width:230px;      
+	height:170px;                                         
+}
+.thematicsMapLegendContainer #thematicMapUsesTypeLegend 
+{                                        
+	width:230px;      
+	height:420px;   
+}
+.thematicsMapLegendContainer  #thematicMapCategoryLegend  
+{                                        
+	width:230px;      
+	height:320px;  
+}
+.thematicsMapLegendContainer  #thematicMapCadAmountMeterLegend
+{                                        
+	width:230px;      
+	height:180px;  
+}
+.thematicsMapLegendContainer  #thematicMapFrameLegend
+{
+    width:230px;
+    height:106px;
+}
+
+.thematicsMapLegendContainer .thematicsMapLegend span
+{
+	font-size: 8pt;
+	margin: -1px 0px 5px 0px;	
+	color:#424D58;
+}
+
+.thematicsMapLegendContainer .thematicsMapLegend .LegendHeader
+{
+	font-size: 11pt;
+	margin: -1px 0px 5px 0px;	
+	color:#424D58;
+}
+
+.thematicsMapList
+{
+	background:#efefef;
+	color:#424D58;
+}
+
+.disabledLabel
+{
+    color: #999;
+}
+
+.thematicsMapList li
+{
+	margin: 0px 5px;
+}
+
+.cadastreMapList
+{
+	background:#efefef;
+	color:#424D58;
+}
+.cadastreMapList li
+{
+	margin: 0px 5px;
+}
+
+.basemapPartitionHeader
+{
+	padding: 10px 5px 5px 5px;
+	color: #424D58;	
+	font-weight: bold;
+	background: none repeat scroll 0 0 #EFEFEF;	
+}
+.basemapPartitionHeader div
+{  
+	border-bottom: 1px solid #D3D3D3;
+}
