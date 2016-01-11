@@ -1,0 +1,1 @@
+$(document).ready(function(){window.setInterval(function(){$("#ResultBox").hasClass("ng-hide")||$(".b-map").css("height","320px")},100)});
